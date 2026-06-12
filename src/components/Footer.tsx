@@ -1,6 +1,5 @@
 "use client";
 
-
 import { Heart } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -63,6 +62,14 @@ export default function Footer({ profile }: FooterProps) {
             aria-label="GitHub Profile"
           >
             {/* <Github className="w-4 h-4" strokeWidth={2.25} /> */}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="w-5 h-5"
+            >
+              <path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 008 10.95c.58.1.79-.25.79-.56v-2.17c-3.25.7-3.94-1.56-3.94-1.56-.53-1.35-1.3-1.71-1.3-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.74 1.27 3.41.97.1-.76.41-1.27.74-1.56-2.6-.3-5.34-1.3-5.34-5.77 0-1.27.46-2.3 1.2-3.11-.12-.3-.52-1.52.12-3.17 0 0 .98-.31 3.2 1.19a11.1 11.1 0 015.82 0c2.22-1.5 3.2-1.19 3.2-1.19.64 1.65.24 2.87.12 3.17.75.81 1.2 1.84 1.2 3.11 0 4.48-2.75 5.47-5.37 5.76.42.37.8 1.1.8 2.22v3.29c0 .31.21.67.8.56A11.5 11.5 0 0023.5 12C23.5 5.65 18.35.5 12 .5z" />
+            </svg>
           </motion.a>
 
           <motion.a
@@ -74,6 +81,14 @@ export default function Footer({ profile }: FooterProps) {
             aria-label="LinkedIn Profile"
           >
             {/* <Linkedin className="w-4 h-4" strokeWidth={2.25} /> */}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="w-5 h-5"
+            >
+              <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.03-1.85-3.03-1.85 0-2.13 1.45-2.13 2.94v5.66H9.37V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM7.11 20.45H3.56V9h3.55v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0z" />
+            </svg>
           </motion.a>
         </div>
 
