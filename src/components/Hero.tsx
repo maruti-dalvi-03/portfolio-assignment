@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { Download, ArrowUpRight } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
 interface HeroProps {
   profile: {
@@ -31,7 +31,7 @@ export default function Hero({ profile }: HeroProps) {
     },
   };
 
-  const itemVariants = {
+  const itemVariants:Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
   };
