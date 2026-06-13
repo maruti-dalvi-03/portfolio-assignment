@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Maruti Dalvi | Portfolio",
   description: "Full Stack Developer Portfolio",
+  icons: {
+    icon: "/m-logo.png",
+  },
 };
 
 export default function RootLayout({
